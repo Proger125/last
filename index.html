@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon"  href="img/calculator.ico">
+	<link rel="stylesheet" type="text/css" href="css/main_style.css">
+	<link href="https://fonts.googleapis.com/css?family=B612+Mono|Gamja+Flower" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Материалы для ЦТ</title>
+</head>
+<body>
+	<header>
+		<div id="site_icon_1"></div>
+		<div id="site_name">Материалы для ЦТ </div>
+		<div id="main_button">Приступить</div>
+		<div id="site_icon_2"></div>
+	</header>
+	<article id="main_article">
+		<article id="left_article">
+			<div class="subjects">Русский язык</div>
+			<div class="subjects">Белорусский язык</div>
+			<div class="subjects">Математика</div>
+			<div class="subjects">Физика</div>
+			<div class="subjects">Английский язык</div>
+			<div class="subjects">Химия</div>
+			<div class="subjects">Биология</div>
+			<div class="subjects">Обществоведение</div>
+		</article>
+		<article id="right_article">
+			<div id="small_left" onclick="click_menu()">
+				<div class="lines"></div>
+				<div class="lines"></div>
+				<div class="lines"></div>
+			</div>
+			<div class="wrapper">
+				<input type="radio" name="point" id="slide1" checked>
+				<input type="radio" name="point" id="slide2">
+				<input type="radio" name="point" id="slide3">
+				<input type="radio" name="point" id="slide4">
+				<input type="radio" name="point" id="slide5">
+				<div class="slider">
+					<div class="slides slide1"></div>
+					<div class="slides slide2"></div>
+					<div class="slides slide3"></div>
+					<div class="slides slide4"></div>
+					<div class="slides slide5"></div>
+				</div>
+				<div class="controls">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+					<label for="slide5"></label>
+				</div>
+			</div>
+			<h1 id="second_name">Наши предметы</h1>
+			<div class="flex_blocks">
+				<div class="block">Русский язык</div>
+				<div class="block">Белорусский язык</div>
+				<div class="block">Математика</div>
+				<div class="block">Физика</div>
+				<div class="block">Английский язык</div>
+				<div class="block">Химия</div>
+				<div class="block">Биология</div>
+				<div class="block"><p>Общество-</p>ведение</div>
+			</div>
+		</article>
+	</article>
+	<footer>
+		<div id="info">
+			<p id="info_n">Автор - Александр Дьяченко</p>	
+		</div>
+		<div id="networks">
+			<a href="https://vk.com/id173706583"><img src="img/vk1.jpg" class="net"></a>
+			<a href="https://www.google.ru"><img src="img/google1.jpg" class="net"></a>
+			<a href="mailto:sanek.dyachenka2002@mail.ru"><img src="img/mail.jpg" class="net"></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/main_script.js"></script>	
+</body>
+</html>
